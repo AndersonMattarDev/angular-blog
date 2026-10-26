@@ -1,0 +1,28 @@
+@media screen and (max-width: 1000px) {
+  .container__small-card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container__small-card-content {
+    align-items: center;
+  }
+
+  .small-card__photo > img {
+    width: clamp(90px, 28vw, 150px);
+    height: clamp(90px, 28vw, 150px);
+    min-width: 0;
+    object-fit: cover;
+    margin-right: 12px;
+  }
+
+  .small-card__title {
+    justify-content: flex-start;
+    margin-right: 0;
+  }
+
+  .small-card__title > h1 {
+    font-size: clamp(1rem, 4vw, 1.4rem);
+  }
+}

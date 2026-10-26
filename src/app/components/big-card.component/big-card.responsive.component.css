@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px) {
+  .container__big-card {
+    width: 100%;
+    height: auto;
+    margin: 32px 0;
+  }
+
+  .big-card__photo {
+    width: 100%;
+  }
+
+  .big-card__photo > img {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container__big-card {
+    margin: 20px 0;
+  }
+
+  .big-card__title > h1 {
+    font-size: clamp(1.25rem, 6vw, 1.75rem);
+  }
+}
