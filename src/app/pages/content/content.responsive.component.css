@@ -1,0 +1,40 @@
+@media screen and (max-width: 1000px) {
+  .container__content {
+    box-sizing: border-box;
+  }
+
+  .content__cover {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .content__cover > img {
+    width: 100%;
+    max-width: 500px;
+    min-width: 0;
+    height: auto;
+  }
+
+    .content__description > p{
+      font-size: 10px;
+    }
+
+    .content__description > h1{
+      font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .container__content {
+    padding: 0 12px;
+  }
+
+  .content__description > p{
+    font-size: 10px;
+  }
+
+  .content__description > h1{
+    font-size: 13px;
+  }
+}
