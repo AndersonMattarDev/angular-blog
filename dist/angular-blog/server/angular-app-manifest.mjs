@@ -8,12 +8,16 @@ export default {
   {
     "renderMode": 2,
     "route": "/"
+  },
+  {
+    "renderMode": 0,
+    "route": "/content/*"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 824, hash: '0d943c619141e751', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 949, hash: 'a3378c1624d7d4b3', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 9526, hash: '72c190a67aebfd6b', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)}
+    'index.csr.html': {size: 931, hash: '0e6cac1c407ec4e2', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1056, hash: 'd0aa951ce4a5e89a', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 12887, hash: 'a5ec904bef0ed9cf', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)}
   },
 };
